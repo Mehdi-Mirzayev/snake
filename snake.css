@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Marhey", sans-serif;
+    background-color: burlywood;
+}
+.banner-card{
+    position: relative;
+}
+
+.banner-card img{
+max-width: 100%;
+height: 150vh;
+background-image: url("https://t3.ftcdn.net/jpg/05/54/20/12/360_F_554201209_XnW8wSYkgtGjq0Gx9Q0GFpz0U6cnDQVB.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.banner-text{
+position: absolute;
+top: 0;
+color: #ffffff;
+padding:15px;
+
+
+}
+.banner-text h3{
+    font-size: 15px;
+    height: 15vh;
+    text-transform: uppercase;
+    margin-bottom:auto;
+    text-align: center;
+    color: #696b07;
+    font-weight: normal;
+
+}
+
+.banner-text h5{
+    font-size: 10px;
+    height: 10vh;
+    font-weight:normal;
+}
+
